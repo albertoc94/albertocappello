@@ -1,5 +1,5 @@
 ---
-layout: publications
+layout: posts
 title: "Insurance Regulations and Vertical Integration"
 ---
 
