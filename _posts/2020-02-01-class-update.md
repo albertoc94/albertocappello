@@ -1,6 +1,6 @@
 ---
 layout: publications
-title: "nsurance Regulations and Vertical Integration"
+title: "Insurance Regulations and Vertical Integration"
 ---
 
 This paper investigates whether federal regulations requiring Medicare Advantage plans
