@@ -1,7 +1,7 @@
 menu:
-- {name: 'research', url: '/publications'}
-- {name: 'teaching', url: '/courses'}
-- {name: 'references', url: '/contact'}
+- {name: 'Research', url: '/publications'}
+- {name: 'Teaching', url: '/courses'}
+- {name: 'References', url: '/contact'}
 
 courses:
 - {name: 'Econometric Methods', url: 'vector-calculus'}
