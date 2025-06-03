@@ -1,4 +1,4 @@
 ---
-layout: cv
+layout: publications
 title: "CV"
 ---
