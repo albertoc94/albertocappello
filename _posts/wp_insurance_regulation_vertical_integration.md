@@ -3,12 +3,11 @@ layout: post
 title: "Insurance Regulations and Vertical Integration"
 ---
 
-This paper investigates whether federal regulations requiring Medicare Advantage plans
-to spend a minimum share of revenue on medical care — commonly referred to as
-medical loss ratio (MLR) — led to increased vertical integration between insurers and
-providers. We measure plan-provider vertical integration as the share of medical claims
-paid to providers affiliated with the insurer. We implement a difference-in-differences
-approach that takes advantage of variation in how binding the MLR requirement was
-for different plans prior to the introduction of the MLR in 2014.
+Vertical integration between insurers and healthcare providers creates strong incentives to 
+circumvent federal regulations designed to limit insurer profit margins and enhance patient welfare. 
+This paper focuses on the minimum Medical Loss Ratio (MLR) requirement, which mandates that Medicare
+Advantage plans allocate at least 85% of their revenue to medical care. We examine whether the 
+introduction of the MLR rule led to increased vertical integration and investigate whether vertically
+integrated insurers are concealing profits through the manipulation of internal transfer prices.
 
 (with Ira Abraham, Boston College)
