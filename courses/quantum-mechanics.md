@@ -1,34 +1,32 @@
 ---
 layout: page
-title: "Quantum Mechanics"
+title: "Econometric Methods"
 ---
 
 #### Course Information
 
-[Course Outline](/courses/quantum-mechanics/Sample_Course_Outline.pdf)
+[Course Outline](/courses/quantum-mechanics/syllabus.pdf)
 
 #### Lecture Notes
 
-[Lecture 1](/courses/quantum-mechanics/Sample_Lecture_Notes.pdf)
+[Lecture 1](/courses/quantum-mechanics/Introduction.pdf)
 
-[Lecture 2](/courses/quantum-mechanics/Sample_Lecture_Notes.pdf)
+[Lecture 2](/courses/quantum-mechanics/SLR.pdf)
 
-[Lecture 3](/courses/quantum-mechanics/Sample_Lecture_Notes.pdf)
+[Lecture 3](/courses/quantum-mechanics/Heteroskadasticity.pdf)
 
-#### Homework
+[Lecture 4](/courses/quantum-mechanics/Omitted Varaible Bias.pdf)
 
-[Homework 1](/courses/quantum-mechanics/Sample_Lecture_Notes.pdf)
+[Lecture 5](/courses/quantum-mechanics/IV_regression.pdf)
 
-[Homework 2](/courses/quantum-mechanics/Sample_Lecture_Notes.pdf)
+[Lecture 6](/courses/quantum-mechanics/MLR.pdf)
 
-[Homework 3](/courses/quantum-mechanics/Sample_Lecture_Notes.pdf)
+[Lecture 7](/courses/quantum-mechanics/Logistic regression.pdf)
 
-#### Midterms
+[Lecture 8](/courses/quantum-mechanics/MLE.pdf)
 
-[Midterm 1](/courses/quantum-mechanics/Sample_Midterm.pdf)
+[Lecture 9](/courses/quantum-mechanics/DID.pdf)
 
-[Midterm 2](/courses/quantum-mechanics/Sample_Midterm.pdf)
+[Lecture 10](/courses/quantum-mechanics/panel_data_models.pdf)
 
-#### Exams
-
-[Exam 1](/courses/quantum-mechanics/Sample_Exam.pdf)
+[Lecture 11](/courses/quantum-mechanics/RDD.pdf)
