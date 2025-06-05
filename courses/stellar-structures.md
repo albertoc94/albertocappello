@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Stellar Structures"
+title: "Machine Learning for Economics"
 ---
 
 #### Course Information
