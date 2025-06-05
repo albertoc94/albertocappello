@@ -15,13 +15,13 @@ title: "Econometric Methods"
 
 [Lecture 3](/courses/quantum-mechanics/Heteroskadasticity.pdf)
 
-[Lecture 4](/courses/quantum-mechanics/Omitted Varaible Bias.pdf)
+[Lecture 4](/courses/quantum-mechanics/Omitted_Varaible_Bias.pdf)
 
 [Lecture 5](/courses/quantum-mechanics/IV_regression.pdf)
 
 [Lecture 6](/courses/quantum-mechanics/MLR.pdf)
 
-[Lecture 7](/courses/quantum-mechanics/Logistic regression.pdf)
+[Lecture 7](/courses/quantum-mechanics/Logistic_regression.pdf)
 
 [Lecture 8](/courses/quantum-mechanics/MLE.pdf)
 
