@@ -5,7 +5,7 @@ title: "Econometric Methods"
 
 #### Course Information
 
-[Course Outline](/courses/quantum-mechanics/Syllabus.pdf)
+[Course Outline](/albertocappello/courses/quantum-mechanics/Syllabus.pdf)
 
 #### Lecture Notes
 
