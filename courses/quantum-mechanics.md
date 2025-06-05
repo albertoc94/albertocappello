@@ -1,32 +1,32 @@
 ---
 layout: page
-title: "Econometric Methods"
+title: "Machine Learning for Economics"
 ---
 
 #### Course Information
 
-[Course Outline](/courses/quantum-mechanics/syllabus.pdf)
+[Course Outline](/albertocappello/courses/syllabus.pdf)
 
 #### Lecture Notes
 
-[Lecture 1](/courses/quantum-mechanics/Introduction.pdf)
+[Lecture 1](/albertocappello/courses/Introduction.pdf)
 
-[Lecture 2](/courses/quantum-mechanics/SLR.pdf)
+[Lecture 2](/albertocappello/courses/SLR.pdf)
 
-[Lecture 3](/courses/quantum-mechanics/Heteroskadasticity.pdf)
+[Lecture 3](/albertocappello/courses/Heteroskadasticity.pdf)
 
-[Lecture 4](/courses/quantum-mechanics/Omitted_Varaible_Bias.pdf)
+[Lecture 4](/albertocappello/courses/Omitted_Varaible_Bias.pdf)
 
-[Lecture 5](/courses/quantum-mechanics/IV_regression.pdf)
+[Lecture 5](/albertocappello/courses/IV_regression.pdf)
 
-[Lecture 6](/courses/quantum-mechanics/MLR.pdf)
+[Lecture 6](/albertocappello/courses/MLR.pdf)
 
-[Lecture 7](/courses/quantum-mechanics/Logistic_regression.pdf)
+[Lecture 7](/albertocappello/courses/Logistic_regression.pdf)
 
-[Lecture 8](/courses/quantum-mechanics/MLE.pdf)
+[Lecture 8](/albertocappello/courses/MLE.pdf)
 
-[Lecture 9](/courses/quantum-mechanics/DID.pdf)
+[Lecture 9](/albertocappello/courses/DID.pdf)
 
-[Lecture 10](/courses/quantum-mechanics/panel_data_models.pdf)
+[Lecture 10](/albertocappello/courses/panel_data_models.pdf)
 
-[Lecture 11](/courses/quantum-mechanics/RDD.pdf)
+[Lecture 11](/albertocappello/courses/RDD.pdf)
