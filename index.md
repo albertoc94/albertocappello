@@ -3,4 +3,10 @@ layout: home
 title: "Home"
 ---
 
-I am a PhD candidate in Economics at Boston College. My research interests lie in Empirical Industrial Organization, Vertical Integration and Health Economics. In my job market paper, I study providers behavior under Medicare incentive payment programs aimed at containing healthcare spending and improving quality. I propose an alternative policy design that could improve the program outcomes. Currently, I am also working on a research project to study how insurer-provider vertical integration could lead to regulatory gaming of Medicare Advantage policies designed to increase consumer welfare.
+I am a PhD candidate in Economics at Boston College. I will be on the 2025/2026 Job Market.
+
+My research fields are Applied Microeconomics, Industrial Organization and Health Economics. 
+
+I worked as an Senior Associate on antitrust and litigation cases at Charles River Associates.
+
+My experience as a lecturer includes teaching courses in Econometrics and Machine Learning.
