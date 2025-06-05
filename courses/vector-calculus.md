@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Vector Calculus"
+title: "Econometric Methods"
 ---
 
 #### Course Information
