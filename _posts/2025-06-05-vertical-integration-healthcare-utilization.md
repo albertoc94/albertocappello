@@ -3,11 +3,13 @@ layout: post
 title: "Impact of Vertical Integration on Healthcare Utilization"
 ---
 
-Abstract: This paper investigates the impact of vertical integration between plans and providers
-on the healthcare utilization in the context of Medicare Advantage market. Our approach addresses
-both enrollee selection into vertically integrated plans, and also hospitals selection into vertical
-vertical integrated entities. We exploit the long-lasting effect of a policy-induced variation in the
-profitability of MA plans across market to develop a Bartik-style instrument and estimate the causal
-effect of vertical integration on inpatient length of stay.
+Abstract: The healthcare sector has become increasingly vertically integrated, with hospital systems
+launching their own health plans and large insurers acquiring healthcare providers. This paper investigates
+the causal effect of vertical integration between plans and providers on healthcare utilization in the 
+Medicare Advantage market. Our empirical strategy tackles two key sources of selection: enrollee selection
+into vertically integrated plans and hospital selection into vertically integrated entities. To address 
+enrollee selection, we employ a differential distance instrument that exploits variation in proximity to
+vertically integrated hospitals. To account for hospital selection, we develop a novel instrument based 
+on the share of Medicare–Medicaid dual-eligible beneficiaries. 
 
 (with Ira Abraham, Boston College)
