@@ -6,8 +6,10 @@
 
     {% for item in pubs %}
       <p class="mb-1">
-        <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-        {% if item.slides_url %} · <a href="{{ item.slides_url | relative_url }}">Slides</a>{% endif %}
+        <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>
+        {% if item.slides_url %} ·
+          <a href="{{ item.slides_url }}" target="_blank" rel="noopener">Slides</a>
+        {% endif %}
       </p>
 
       {% if item.abstract %}
