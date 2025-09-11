@@ -1,22 +1,27 @@
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Job Market Paper</h3>
+
     {% if page.title == "Home" %}
-      {% for item in site.data.publications.featured %}
-        <p>
-          <a href="{{ item.url }}">{{ item.name }}</a>
-          {% if item.slides_url %} · <a href="{{ item.slides_url }}">Slides</a>{% endif %}
-        </p>
-      {% endfor %}
+      {% assign pubs = site.data.publications.featured %}
     {% else %}
-      {% for item in site.data.publications.index %}
-        <p>
-          <a href="{{ item.url }}">{{ item.name }}</a>
-          {% if item.slides_url %} · <a href="{{ item.slides_url }}">Slides</a>{% endif %}
-        </p>
-      {% endfor %}
+      {% assign pubs = site.data.publications.index %}
     {% endif %}
+
+    {% for item in pubs %}
+      <p class="mb-1">
+        <a href="{{ item.url }}">{{ item.name }}</a>
+        {% if item.slides_url %} · <a href="{{ item.slides_url }}">Slides</a>{% endif %}
+      </p>
+
+      {% if item.abstract %}
+        <div class="mt-2 small text-muted">
+          {{ item.abstract | markdownify }}
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
 </div>
+
 
 
