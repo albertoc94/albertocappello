@@ -1,5 +1,9 @@
 featured:
-- {name: 'Participation and Spending in the Medicare Shared Savings Program', url: 'publications/JMP_AlbertoCappello.pdf'}
+  - name: "Participation and Spending in the Medicare Shared Savings Program"
+    url: "/publications/JMP_AlbertoCappello.pdf"
+    slides_url: "/assets/JMP_Slides_Fall2025.pdf"
 
 index:
-- {name: 'Participation and Spending in the Medicare Shared Savings Program', url: 'publications/JMP_AlbertoCappello.pdf'}
+  - name: "Participation and Spending in the Medicare Shared Savings Program"
+    url: "/publications/JMP_AlbertoCappello.pdf"
+    slides_url: "/assets/JMP_Slides_Fall2025.pdf"
