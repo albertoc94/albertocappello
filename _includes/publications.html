@@ -2,16 +2,12 @@
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Job Market Paper</h3>
 
-    {% if page.title == "Home" %}
-      {% assign pubs = site.data.publications.featured %}
-    {% else %}
-      {% assign pubs = site.data.publications.index %}
-    {% endif %}
+    {% assign pubs = site.data.publications.featured %}
 
     {% for item in pubs %}
       <p class="mb-1">
-        <a href="{{ item.url }}">{{ item.name }}</a>
-        {% if item.slides_url %} · <a href="{{ item.slides_url }}">Slides</a>{% endif %}
+        <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+        {% if item.slides_url %} · <a href="{{ item.slides_url | relative_url }}">Slides</a>{% endif %}
       </p>
 
       {% if item.abstract %}
@@ -22,6 +18,3 @@
     {% endfor %}
   </div>
 </div>
-
-
-
