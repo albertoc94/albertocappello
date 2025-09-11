@@ -2,6 +2,21 @@ featured:
   - name: "Participation and Spending in the Medicare Shared Savings Program"
     url: "publications/JMP_AlbertoCappello.pdf"
     slides_url: "publications/JMP_Slides_Fall2025.pdf"
+    abstract: |
+      The Medicare Shared Savings Program (MSSP) is a voluntary program that provides
+      incentive payments to healthcare providers that form integrated healthcare organiza-
+      tions, known as Accountable Care Organizations (ACOs). The MSSP rewards ACOs
+      for keeping average per capita spending below a benchmark based on historical spend-
+      ing by ACO providers under the fee-for-service (FFS) system. I provide reduced-form
+      and model-based evidence that benchmarks affect ACOs’ participation and perfor-
+      mance in the MSSP. I show that blending the ACOs’ historical spending with a regional
+      adjustment factor induces adverse selection, enabling some ACOs to earn incentive
+      payments without reducing spending below the FFS level. Moreover, the benchmark
+      rebasement, which updates the benchmark over time to reflect observed healthcare
+      spending among ACOs providers, incentivizes ACOs to delay spending reductions to
+      avoid lowering future benchmarks. I propose a revised benchmarking methodology to
+      address these inefficiencies. Counterfactual analyses demonstrate that this alternative
+      policy mitigates adverse selection and significantly increases Medicare savings.
 
 index:
   - name: "Participation and Spending in the Medicare Shared Savings Program"
