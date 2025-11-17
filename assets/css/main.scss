@@ -6,13 +6,16 @@
   margin-bottom: 1.5rem;
 }
 
-/* Make all links on the publications page black */
-.publications-page a {
-  color: #000000;
-  text-decoration: none;
+/* Global link overrides — make all links black and underlined */
+a,
+a:visited {
+  color: #000000 !important;      /* black */
+  text-decoration: underline;     /* always underlined */
 }
 
-.publications-page a:hover {
-  color: #000000;
-  text-decoration: underline;
+a:hover,
+a:focus {
+  color: #000000 !important;      /* still black on hover/focus */
+  text-decoration: underline;     /* keep underline */
 }
+
