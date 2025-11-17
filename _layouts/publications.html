@@ -14,9 +14,13 @@ layout: default
 
     {% for item in wps %}
       <p class="mb-1">
-        <a href="{{ site.github.url }}/{{ item.url }}" target="_blank" rel="noopener">
+        {% if item.url %}
+          <a href="{{ site.github.url }}/{{ item.url }}" target="_blank" rel="noopener">
+            {{ item.name }}
+          </a>
+        {% else %}
           {{ item.name }}
-        </a>
+        {% endif %}
       </p>
 
       {% if item.abstract %}
