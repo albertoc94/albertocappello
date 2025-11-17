@@ -1,21 +1,4 @@
-/* Publications page styling */
-.pub-abstract {
-  font-size: 1rem;
-  color: #000000;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-}
+---
+---
 
-/* Global link overrides — make all links black and underlined */
-a,
-a:visited {
-  color: #000000 !important;      /* black */
-  text-decoration: underline;     /* always underlined */
-}
-
-a:hover,
-a:focus {
-  color: #000000 !important;      /* still black on hover/focus */
-  text-decoration: underline;     /* keep underline */
-}
-
+@import "main";
