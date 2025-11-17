@@ -2,32 +2,34 @@
 layout: default
 ---
 
-{{ content }}
+<div class="publications-page">
+  {{ content }}
 
-{% include publications.html %}
+  {% include publications.html %}
 
-<div class="row g-5 mb-5">
-  <div class="col-lg-9 mx-auto">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Working Papers</h3>
+  <div class="row g-5 mb-5">
+    <div class="col-lg-9 mx-auto">
+      <h3 class="fw-bold border-bottom pb-3 mb-5">Working Papers</h3>
 
-    {% assign wps = site.data.publications.index %}
+      {% assign wps = site.data.publications.index %}
 
-    {% for item in wps %}
-      <p class="mb-1">
-        {% if item.url %}
-          <a href="{{ site.github.url }}/{{ item.url }}" target="_blank" rel="noopener">
+      {% for item in wps %}
+        <p class="mb-1">
+          {% if item.url %}
+            <a href="{{ site.github.url }}/{{ item.url }}" target="_blank" rel="noopener">
+              {{ item.name }}
+            </a>
+          {% else %}
             {{ item.name }}
-          </a>
-        {% else %}
-          {{ item.name }}
-        {% endif %}
-      </p>
+          {% endif %}
+        </p>
 
-      {% if item.abstract %}
-        <div class="mt-3 pub-abstract">
-          {{ item.abstract | markdownify }}
-        </div>
-      {% endif %}
-    {% endfor %}
+        {% if item.abstract %}
+          <div class="mt-3 pub-abstract">
+            {{ item.abstract | markdownify }}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </div>
