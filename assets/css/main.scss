@@ -1,7 +1,18 @@
 /* Publications page styling */
 .pub-abstract {
-  font-size: 1rem;       /* regular body size (bigger than .small) */
-  color: #000000;        /* standard black text */
+  font-size: 1rem;
+  color: #000000;
   line-height: 1.6;
   margin-bottom: 1.5rem;
+}
+
+/* Make all links on the publications page black */
+.publications-page a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.publications-page a:hover {
+  color: #000000;
+  text-decoration: underline;
 }
