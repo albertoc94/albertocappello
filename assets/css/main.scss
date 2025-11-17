@@ -1,4 +1,7 @@
----
----
-
-@import "main";
+/* Publications page styling */
+.pub-abstract {
+  font-size: 1rem;       /* regular body size (bigger than .small) */
+  color: #000000;        /* standard black text */
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
