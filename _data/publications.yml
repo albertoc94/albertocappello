@@ -37,7 +37,7 @@ index:
 
   - name: "Insurance Regulations and Vertical Integration"
     # You can change this to the PDF path once it exists
-    url: "#"
+    # url: "#"
     abstract: >
       Vertical integration between insurers and healthcare providers creates strong incentives to
       circumvent federal regulations designed to limit insurer profit margins and enhance patient
