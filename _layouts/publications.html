@@ -9,8 +9,21 @@ layout: default
 <div class="row g-5 mb-5">
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5">Working Papers</h3>
-    {% for post in site.posts %}
-      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a></p>
+
+    {% assign wps = site.data.publications.index %}
+
+    {% for item in wps %}
+      <p class="mb-1">
+        <a href="{{ site.github.url }}/{{ item.url }}" target="_blank" rel="noopener">
+          {{ item.name }}
+        </a>
+      </p>
+
+      {% if item.abstract %}
+        <div class="mt-2 small text-muted">
+          {{ item.abstract | markdownify }}
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
