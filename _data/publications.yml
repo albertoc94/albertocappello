@@ -32,10 +32,10 @@ index:
       integrated entity by including hospital fixed effects and year fixed effects, which allow
       us to exploit variation in hospitals’ vertical integration status over time. We implement
       this identification strategy using administrative Medicare Advantage (MA) enrollment
-      and claims data. We find that in unconcentrated hospital markets the readmission
-      probability at the VI hospitals is 3.4 pp lower than at other hospitals, but this 
-      association attenuates as the level of hospital markets concentration rises. 
-      The difference in readmission probability becomes negligible in highly concentrated markets.
+      and claims data. We find that in less concentrated hospital markets the readmission
+      probability at VI hospitals is about 3.4 percentage points lower than at
+      other hospitals, and that the estimated treatment effect is smaller in
+      markets with higher observed hospital concentration.
 
   - name: "Spillover Effects between Medicare Programs"
     url: "publications/Spillover_Paper_AIY.pdf"
