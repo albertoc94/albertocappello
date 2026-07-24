@@ -3,12 +3,10 @@ layout: home
 title: "Home"
 ---
 
-I am a PhD candidate in Economics at Boston College. I am graduating in May 2026. 
+I am the Associate Research Director at Yale’s Healthcare Affordability Lab, where I guide the development and execution of the lab’s research projects.
 
-Starting June 1st 2026, I will join the Yale's Healthcare Affordability Lab as an Associate Research Director.
+My current research focuses on hospital market competition, vertical integration, and the effects of federal healthcare policies.
 
-My research lies at the intersection of Industrial Organization, Health Economics and Public Policy. 
+I received my PhD in Economics from Boston College in May 2026. I specialized in Industrial Organization and Health Economics, and my research has examined Medicare alternative payment models and hospital-insurer vertical integration.
 
-I worked as a Senior Associate on antitrust and litigation cases at Charles River Associates.
-
-My experience as a lecturer includes teaching courses in Econometrics and Machine Learning.
+Before joining Yale, I worked on antitrust and litigation matters at Charles River Associates and taught econometrics and machine learning at Boston College.
