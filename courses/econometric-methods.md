@@ -2,6 +2,7 @@
 layout: course
 title: "Econometric Methods"
 institution: "Boston College"
+term: "Spring 2025"
 role: "Instructor"
 syllabus: "courses/econometric-methods/syllabus.pdf"
 lectures:

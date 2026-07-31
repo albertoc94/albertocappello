@@ -25,13 +25,23 @@ layout: default
             {% endif %}
           </h3>
 
-          {% if item.coauthors or item.slides_url %}
+          {% if item.coauthors %}
             <p class="paper__meta">
-              {% if item.coauthors %}with {{ item.coauthors }}{% endif %}
-              {% if item.coauthors and item.slides_url %} · {% endif %}
-              {% if item.slides_url %}
-                <a href="{{ site.github.url }}/{{ item.slides_url }}" target="_blank" rel="noopener">Slides</a>
-              {% endif %}
+              with
+              {% for c in item.coauthors %}
+                {%- if c.url -%}
+                  <a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.name }}</a>
+                {%- else -%}
+                  {{ c.name }}
+                {%- endif -%}
+                {%- unless forloop.last %}, {% endunless -%}
+              {% endfor %}
+            </p>
+          {% endif %}
+
+          {% if item.slides_url %}
+            <p class="paper__meta">
+              <a href="{{ site.github.url }}/{{ item.slides_url }}" target="_blank" rel="noopener">Slides</a>
             </p>
           {% endif %}
 

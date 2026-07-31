@@ -10,17 +10,40 @@ fields:
 - 'Applied Econometrics'
 
 courses:
+- name: 'Econometric Methods'
+  url: 'econometric-methods'
+  institution: 'Boston College'
+  term: 'Spring 2025'
+  role: 'Instructor'
 - name: 'Machine Learning for Economics'
   url: 'machine-learning-for-economics'
   institution: 'Boston College'
   term: 'Fall 2024'
   role: 'Instructor'
-- name: 'Econometric Methods'
-  url: 'econometric-methods'
-  institution: 'Boston College'
-  role: 'Instructor'
 
-contacts:
-- {name: 'Michael Grubb', institution: 'Boston College', email: 'michael.grubb@bc.edu'}
-- {name: 'Richard Sweeney', institution: 'Boston College', email: 'sweeneri@bc.edu'}
-- {name: 'Diana Bowser', institution: 'Boston College', email: 'bowserdi@bc.edu'}
+reference_groups:
+- label: 'Healthcare Affordability Lab'
+  people:
+  - name: 'Zack Cooper'
+    url: 'https://zackcooper.com/'
+    role: 'Associate Professor of Public Health and of Economics'
+    institution: 'Yale University'
+  - name: 'Andrea Harris'
+    url: 'https://tobin.yale.edu/people/andrea-harris'
+    role: 'Managing Director, Health Care Affordability Lab'
+    institution: 'Tobin Center for Economic Policy, Yale University'
+
+- label: 'PhD References'
+  people:
+  - name: 'Michael Grubb'
+    url: 'https://www.bc.edu/bc-web/schools/morrissey/departments/economics/people/faculty-directory/michael-grubb.html'
+    institution: 'Boston College'
+    email: 'michael.grubb@bc.edu'
+  - name: 'Richard Sweeney'
+    url: 'https://www.bc.edu/bc-web/schools/morrissey/departments/economics/people/faculty-directory/richard-sweeney.html'
+    institution: 'Boston College'
+    email: 'sweeneri@bc.edu'
+  - name: 'Diana Bowser'
+    url: 'https://www.bc.edu/bc-web/schools/cson/faculty-research/faculty-directory/diana-m--bowser.html'
+    institution: 'Boston College'
+    email: 'bowserdi@bc.edu'

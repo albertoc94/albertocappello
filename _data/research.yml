@@ -20,6 +20,9 @@ featured:
 index:
   - name: "The Impact of Hospital-Sponsored Health Plans on Readmission Rates"
     url: "research/VI_healthplans_draft.pdf"
+    coauthors:
+      - {name: 'Ira Abraham', url: 'https://sites.google.com/bc.edu/iraabraham/home'}
+      - {name: 'Diana Bowser', url: 'https://www.bc.edu/bc-web/schools/cson/faculty-research/faculty-directory/diana-m--bowser.html'}
     abstract: >
       Provider-sponsored health plans (PSHPs) are a form of vertical integration (VI) be-
       tween health care financing (plans) and health care delivery systems (hospitals). This
@@ -44,6 +47,9 @@ index:
 
   - name: "Spillover Effects between Medicare Programs"
     url: "research/Spillover_Paper_AIY.pdf"
+    coauthors:
+      - {name: 'Ira Abraham', url: 'https://sites.google.com/bc.edu/iraabraham/home'}
+      - {name: 'Yunus Coskun', url: 'https://www.yunussemihcoskun.com/'}
     abstract: >
       Medicare relies on multiple programs that provide coverage to different groups of
       beneficiaries. The Medicare Shared Savings Program (MSSP) introduces incentives

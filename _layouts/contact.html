@@ -11,15 +11,28 @@ layout: default
 
 <section class="section">
   <h2 class="eyebrow">References</h2>
-  <ul class="refs">
-    {% for contact in site.data.settings.contacts %}
-      <li>
-        <h3 class="refs__name">{{ contact.name }}</h3>
-        <p class="refs__meta">
-          {{ contact.institution }}<br>
-          <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
-        </p>
-      </li>
-    {% endfor %}
-  </ul>
+
+  {% for group in site.data.settings.reference_groups %}
+    <div class="refs-group">
+      <h3 class="refs-group__label">{{ group.label }}</h3>
+      <ul class="refs">
+        {% for person in group.people %}
+          <li>
+            <h4 class="refs__name">
+              {% if person.url %}
+                <a href="{{ person.url }}" target="_blank" rel="noopener">{{ person.name }}</a>
+              {% else %}
+                {{ person.name }}
+              {% endif %}
+            </h4>
+            <p class="refs__meta">
+              {% if person.role %}{{ person.role }}<br>{% endif %}
+              {{ person.institution }}
+              {% if person.email %}<br><a href="mailto:{{ person.email }}">{{ person.email }}</a>{% endif %}
+            </p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
 </section>

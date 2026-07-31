@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__name" href="{{ site.github.url }}/">{{ site.title }}</a>
+
+    <nav class="site-header__nav">
+      {% for item in site.data.settings.menu %}
+        {% assign target = item.url | append: '/' %}
+        {% assign active = false %}
+        {% if item.url == '/' %}
+          {% if page.url == '/' %}{% assign active = true %}{% endif %}
+        {% elsif page.url == item.url or page.url contains target %}
+          {% assign active = true %}
+        {% endif %}
+        {% if active %}
+          <a class="is-active" aria-current="page" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+        {% else %}
+          <a href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+</header>
