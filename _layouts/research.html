@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<h1 class="visually-hidden">{{ page.title }}</h1>
+
+{{ content }}
+
+{% assign groups = "featured,index" | split: "," %}
+{% assign labels = "Job Market Paper,Working Papers" | split: "," %}
+
+{% for group in groups %}
+  {% assign papers = site.data.research[group] %}
+  {% if papers and papers.size > 0 %}
+    <section class="section">
+      <h2 class="eyebrow">{{ labels[forloop.index0] }}</h2>
+
+      {% for item in papers %}
+        <article class="paper">
+          <h3 class="paper__title">
+            {% if item.url %}
+              <a href="{{ site.github.url }}/{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>
+            {% else %}
+              {{ item.name }}
+            {% endif %}
+          </h3>
+
+          {% if item.coauthors or item.slides_url %}
+            <p class="paper__meta">
+              {% if item.coauthors %}with {{ item.coauthors }}{% endif %}
+              {% if item.coauthors and item.slides_url %} · {% endif %}
+              {% if item.slides_url %}
+                <a href="{{ site.github.url }}/{{ item.slides_url }}" target="_blank" rel="noopener">Slides</a>
+              {% endif %}
+            </p>
+          {% endif %}
+
+          {% if item.abstract %}
+            <details class="paper__abstract">
+              <summary>Abstract</summary>
+              <div class="paper__abstract-body">{{ item.abstract | markdownify }}</div>
+            </details>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </section>
+  {% endif %}
+{% endfor %}

@@ -1,15 +1,24 @@
 menu:
-- {name: 'Research', url: '/publications'}
+- {name: 'Home', url: '/'}
+- {name: 'Research', url: '/research'}
 - {name: 'Teaching', url: '/courses'}
-- {name: 'References', url: '/contact'}
+- {name: 'Contact', url: '/contact'}
+
+fields:
+- 'Industrial Organization'
+- 'Health Economics'
+- 'Applied Econometrics'
 
 courses:
-- {name: 'Econometric Methods', url: 'vector-calculus'}
-- {name: 'Machine Learining for Economics', url: 'quantum-mechanics'}
-
-social:
-- {icon: 'github', link: 'https://albertoc94.github.io/albertocappello/'}
-- {icon: 'linkedin', link: 'https://www.linkedin.com/in/alberto-cappello/'}
+- name: 'Machine Learning for Economics'
+  url: 'machine-learning-for-economics'
+  institution: 'Boston College'
+  term: 'Fall 2024'
+  role: 'Instructor'
+- name: 'Econometric Methods'
+  url: 'econometric-methods'
+  institution: 'Boston College'
+  role: 'Instructor'
 
 contacts:
 - {name: 'Michael Grubb', institution: 'Boston College', email: 'michael.grubb@bc.edu'}

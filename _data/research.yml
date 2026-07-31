@@ -1,7 +1,7 @@
 featured:
   - name: "Participation and Spending in the Medicare Shared Savings Program"
-    url: "publications/JMP_AlbertoCappello.pdf"
-    slides_url: "publications/JMP_Slides_Spring2026.pdf"
+    url: "research/JMP_AlbertoCappello.pdf"
+    slides_url: "research/JMP_Slides_Spring2026.pdf"
     abstract: >
       The Medicare Shared Savings Program (MSSP) is a voluntary program that provides incentive
       payments to healthcare providers that form integrated healthcare organizations, known as
@@ -19,7 +19,7 @@ featured:
 
 index:
   - name: "The Impact of Hospital-Sponsored Health Plans on Readmission Rates"
-    url: "publications/VI_healthplans_draft.pdf"
+    url: "research/VI_healthplans_draft.pdf"
     abstract: >
       Provider-sponsored health plans (PSHPs) are a form of vertical integration (VI) be-
       tween health care financing (plans) and health care delivery systems (hospitals). This
@@ -43,7 +43,7 @@ index:
 
 
   - name: "Spillover Effects between Medicare Programs"
-    url: "publications/Spillover_Paper_AIY.pdf"
+    url: "research/Spillover_Paper_AIY.pdf"
     abstract: >
       Medicare relies on multiple programs that provide coverage to different groups of
       beneficiaries. The Medicare Shared Savings Program (MSSP) introduces incentives

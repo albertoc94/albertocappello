@@ -2,13 +2,22 @@
 layout: default
 ---
 
-{{ content }}
+<h1 class="visually-hidden">{{ page.title }}</h1>
 
-<div class="row g-5 mb-5">
-  <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Courses</h3>
+<section class="section">
+  <h2 class="eyebrow">Teaching</h2>
+  {{ content }}
+
+  <ul class="course-list">
     {% for course in site.data.settings.courses %}
-      <p><a href="{{ site.github.url }}/courses/{{ course.url}}">{{ course.name }}</a></p>
+      <li>
+        <h3 class="course-list__name">
+          <a href="{{ site.github.url }}/courses/{{ course.url }}">{{ course.name }}</a>
+        </h3>
+        <p class="course-list__meta">
+          {{ course.institution }}{% if course.term %} · {{ course.term }}{% endif %}{% if course.role %} · {{ course.role }}{% endif %}
+        </p>
+      </li>
     {% endfor %}
-  </div>
-</div>
+  </ul>
+</section>

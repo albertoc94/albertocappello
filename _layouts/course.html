@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<section class="section">
+  <h2 class="eyebrow">Teaching</h2>
+  <h1>{{ page.title }}</h1>
+  {% if page.institution %}
+    <p class="course-list__meta">{{ page.institution }}{% if page.term %} · {{ page.term }}{% endif %}</p>
+  {% endif %}
+
+  {% if page.syllabus %}
+    <p class="course-syllabus"><a href="{{ site.github.url }}/{{ page.syllabus }}" target="_blank" rel="noopener">Syllabus (PDF)</a></p>
+  {% endif %}
+</section>
+
+{% if page.lectures %}
+  <section class="section">
+    <h2 class="eyebrow">Lecture notes</h2>
+    <ol class="lecture-list">
+      {% for lecture in page.lectures %}
+        <li>
+          <span class="num">{{ forloop.index }}</span>
+          <a href="{{ site.github.url }}/{{ lecture.url }}" target="_blank" rel="noopener">{{ lecture.name }}</a>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+{% endif %}
+
+{{ content }}

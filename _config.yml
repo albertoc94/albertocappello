@@ -1,4 +1,18 @@
-lurl: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "Alberto Cappello" # the name of your site, e.g. ACME Corp.
-description: "Welcome to my website!"
+title: "Alberto Cappello"
+tagline: "Health Economics & Industrial Organization"
+role: "Associate Research Director"
+affiliation: "Healthcare Affordability Lab, Yale University"
+email: "alberto.cappello@yale.edu"
+cv: "assets/CV_AlbertoCappello_2025.pdf"
+description: "Alberto Cappello is Associate Research Director at Yale's Healthcare Affordability Lab. His research covers health economics, industrial organization, and applied econometrics."
+
+url: ""
+baseurl: ""
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.txt
+  - vendor
