@@ -28,10 +28,12 @@ reference_groups:
     url: 'https://zackcooper.com/'
     role: 'Associate Professor of Public Health and of Economics'
     institution: 'Yale University'
+    email: 'zack.cooper@yale.edu'
   - name: 'Andrea Harris'
     url: 'https://tobin.yale.edu/people/andrea-harris'
     role: 'Managing Director, Health Care Affordability Lab'
     institution: 'Tobin Center for Economic Policy, Yale University'
+    email: 'andrea.harris@yale.edu'
 
 - label: 'PhD References'
   people:
