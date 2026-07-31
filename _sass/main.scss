@@ -151,6 +151,9 @@ p:last-child { margin-bottom: 0; }
 
 .sidebar__role strong { font-weight: 600; color: var(--ink); display: block; }
 
+.sidebar__role a { color: inherit; border-bottom-color: var(--rule); }
+.sidebar__role a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
 .sidebar__meta {
   font-size: 0.8125rem;
   line-height: 1.6;

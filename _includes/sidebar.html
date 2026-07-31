@@ -3,12 +3,12 @@
 
   <p class="sidebar__role">
     <strong>{{ site.role }}</strong>
-    {{ site.affiliation }}
+    <a href="{{ site.lab_url }}" target="_blank" rel="noopener">{{ site.affiliation }}</a>
   </p>
 
   <div class="sidebar__meta">
     <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     <p><a href="{{ site.github.url }}/{{ site.cv }}" target="_blank" rel="noopener">Curriculum Vitae (PDF)</a></p>
-    <p><a href="{{ site.profile_url }}" target="_blank" rel="noopener">Lab profile</a></p>
+    <p><a href="{{ site.profile_url }}" target="_blank" rel="noopener">HCAL profile</a></p>
   </div>
 </aside>
