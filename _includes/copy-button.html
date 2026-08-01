@@ -1,0 +1,6 @@
+{% comment %}
+Must stay on ONE line: this include is used inside Markdown (contact.md), and
+Kramdown treats multi-line inline HTML as a block, which closes the <button>
+early and hoists the SVGs out of it.
+{% endcomment %}
+<button type="button" class="copy-btn" data-copy="{{ include.value }}" title="{{ include.label | default: 'Copy' }}" aria-label="{{ include.label | default: 'Copy' }}"><svg class="copy-btn__icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M6 15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"/></svg><svg class="copy-btn__check" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span class="visually-hidden" data-copy-status aria-live="polite"></span></button>
