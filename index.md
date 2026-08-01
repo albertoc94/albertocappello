@@ -3,7 +3,7 @@ layout: home
 title: "Home"
 ---
 
-I am the Associate Director of Research at Yale’s Healthcare Affordability Lab, where I guide the development and execution of the lab’s research projects.
+Welcome to my website! I am the Associate Director of Research at Yale’s Healthcare Affordability Lab, where I guide the development and execution of the lab’s research projects.
 
 My current research focuses on hospital market competition, vertical integration, and the effects of federal healthcare policies.
 

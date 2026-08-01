@@ -80,8 +80,6 @@ p:last-child { margin-bottom: 0; }
   padding: 1.5rem 2.5rem;
 }
 
-.site-header__brand { display: block; }
-
 .site-header__name {
   display: inline-block;
   font-family: var(--serif);
@@ -93,12 +91,6 @@ p:last-child { margin-bottom: 0; }
 }
 
 .site-header__name:hover { color: var(--accent); }
-
-.site-header__welcome {
-  font-size: 0.9375rem;
-  color: var(--ink-soft);
-  margin: 0.2rem 0 0;
-}
 
 .site-header__nav {
   display: flex;
