@@ -1,6 +1,11 @@
 <header class="site-header">
   <div class="site-header__inner">
-    <a class="site-header__name" href="{{ site.github.url }}/">{{ site.title }}</a>
+    <div class="site-header__brand">
+      <a class="site-header__name" href="{{ site.github.url }}/">{{ site.title }}</a>
+      {% if page.url == '/' and site.welcome %}
+        <p class="site-header__welcome">{{ site.welcome }}</p>
+      {% endif %}
+    </div>
 
     <nav class="site-header__nav">
       {% for item in site.data.settings.menu %}
