@@ -18,31 +18,26 @@ featured:
       savings.
 
 index:
-  - name: "The Impact of Hospital-Sponsored Health Plans on Readmission Rates"
+  - name: "Can Hospitals Efficiently Integrate Health Care Financing and Delivery?"
     url: "research/VI_healthplans_draft.pdf"
     coauthors:
       - {name: 'Ira Abraham', url: 'https://sites.google.com/bc.edu/iraabraham/home'}
       - {name: 'Diana Bowser', url: 'https://www.bc.edu/bc-web/schools/cson/faculty-research/faculty-directory/diana-m--bowser.html'}
     abstract: >
-      Provider-sponsored health plans (PSHPs) are a form of vertical integration (VI) be-
-      tween health care financing (plans) and health care delivery systems (hospitals). This
-      paper studies the impact of PSHP on 30-day unplanned readmissions risk among Medi-
-      care Advantage beneficiaries and distinguishes between two margins of integration:
-      treatment at an integrated hospital (VI-hospital) and enrollment in an integrated plan
-      (VI-plan). We address both patient selection and supply side selection into VI status.
-      To address patient selection, we adopt an identification strategy the leverages quasi-
-      experimental variation in hospital assignment and plan enrollment. To address hospital
-      selection into VI status, we include hospital and plan fixed effects, and exploit within
-      hospital variation in the VI status over time. We find that in markets where hospital
-      competition is stronger, patients admitted to an integrated hospital-plan setting have
-      9.5 pp lower readmission risk relative to those admitted to standard hospitals, and
-      have also shorter length of inpatient stay. Identification of the impact of enrollment
-      into a VI plan is weaker since we cannot include plan fixed affect as there is no within
-      plan variation in the VI status. After controlling for the admitting hospital, we do not
-      find evidence that enrollment in a vertically integrated health plan reduces readmission
-      risk. Together, these findings indicate that, in competitive hospital markets, this lower
-      readmission risk operate through hospital-wide care practice changes at an integrated
-      hospital rather than through the enrollment in an integrated plan.
+      Some hospitals integrate health care financing and delivery by sponsoring a health
+      plan. Whether this arrangement improves patient outcomes depends on whether plan
+      ownership changes how hospitals deliver care. We study emergency admissions among
+      Medicare Advantage beneficiaries and instrument for admission to a plan-sponsoring
+      hospital using differential distance and ambulance companies’ historical destination
+      patterns. In the full sample, we find little evidence that admission to a plan-sponsoring
+      hospital changes 30-day all-cause unplanned readmissions, while 30-day mortality is
+      lower. In local hospital markets with lower concentration (HHI below 1,800), the estimates
+      imply a 12.4 percentage point reduction in readmission and a 5.6 percentage point reduction 
+      in mortality. The corresponding estimates are smaller and not statistically distinguishable
+      from zero in concentrated markets (HHI of 1,800 or above). Because these estimates come from 
+      separate subsamples, they do not identify competition as the cause of the difference. The 
+      results suggest that hospital sponsorship of a health plan can lead hospitals to improve 
+      patient outcomes, but that the benefits vary strongly across markets with different levels of competition.
 
 
   - name: "Spillover Effects between Medicare Programs"
